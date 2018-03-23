@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AF105FAC2054A9DA00197543 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF105FAB2054A9DA00197543 /* main.cpp */; };
+		AF105FB32054AA0700197543 /* Tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF105FB22054AA0700197543 /* Tokenizer.cpp */; };
+		AF105FB82054AAEC00197543 /* WordList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF105FB62054AAEC00197543 /* WordList.cpp */; };
+		AF105FBA2054AB1A00197543 /* Decrypter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF105FB92054AB1A00197543 /* Decrypter.cpp */; };
+		AF105FBC2054AB4100197543 /* Translator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF105FBB2054AB4100197543 /* Translator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,13 @@
 /* Begin PBXFileReference section */
 		AF105FA82054A9DA00197543 /* CS32-Proj4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS32-Proj4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF105FAB2054A9DA00197543 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AF105FB22054AA0700197543 /* Tokenizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tokenizer.cpp; sourceTree = "<group>"; };
+		AF105FB42054AA6800197543 /* MyHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHash.h; sourceTree = "<group>"; };
+		AF105FB52054AAC000197543 /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wordlist.txt; path = ../../../Downloads/skeleton/wordlist.txt; sourceTree = "<group>"; };
+		AF105FB62054AAEC00197543 /* WordList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WordList.cpp; sourceTree = "<group>"; };
+		AF105FB92054AB1A00197543 /* Decrypter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Decrypter.cpp; sourceTree = "<group>"; };
+		AF105FBB2054AB4100197543 /* Translator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Translator.cpp; sourceTree = "<group>"; };
+		AF105FBD2054AB5100197543 /* provided.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = provided.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +68,14 @@
 		AF105FAA2054A9DA00197543 /* CS32-Proj4 */ = {
 			isa = PBXGroup;
 			children = (
+				AF105FB52054AAC000197543 /* wordlist.txt */,
 				AF105FAB2054A9DA00197543 /* main.cpp */,
+				AF105FB22054AA0700197543 /* Tokenizer.cpp */,
+				AF105FB42054AA6800197543 /* MyHash.h */,
+				AF105FB62054AAEC00197543 /* WordList.cpp */,
+				AF105FB92054AB1A00197543 /* Decrypter.cpp */,
+				AF105FBB2054AB4100197543 /* Translator.cpp */,
+				AF105FBD2054AB5100197543 /* provided.h */,
 			);
 			path = "CS32-Proj4";
 			sourceTree = "<group>";
@@ -119,7 +137,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF105FB82054AAEC00197543 /* WordList.cpp in Sources */,
+				AF105FBC2054AB4100197543 /* Translator.cpp in Sources */,
 				AF105FAC2054A9DA00197543 /* main.cpp in Sources */,
+				AF105FBA2054AB1A00197543 /* Decrypter.cpp in Sources */,
+				AF105FB32054AA0700197543 /* Tokenizer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
